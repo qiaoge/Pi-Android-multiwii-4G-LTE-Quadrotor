@@ -5,17 +5,11 @@ Mark: 20160525 ~ 20160527 update
 Hardware:
 
  1. Pi 2 b+ 
- 2. 
  2. Pi camera
- 3. 
  3. Huawei E3372s-210 USB 4G LTE stick
- 4. 
  4. Multiwii SE V2.6 or 2.5
- 5. 
  5. Android phone
- 6. 
  6. Two unicom SIM car for E3372s-210 and phone
- 7. 
  7. Quadrotor and so on 
 
 Set 4G stick on after boot
@@ -39,8 +33,11 @@ Here I don't want to introduce how to set Pi camera. Google please.
 Set software on pi
 
  CP file starx_p2p_pi to " ~/ " after you make this projct, make on pi or on PC linux os, 
+ 
  you need to read the makefile first and change build tool,
+ 
  you need to read the makefile first and change build tool,
+ 
  you need to read the makefile first and change build tool.
  
  cd starx_p2p_pi
@@ -60,4 +57,7 @@ then run
 U can also use a shell to run this program in background.
  
 Android software:
- set program on your phone whit eclipse.
+
+ set program on your phone with eclipse.
+ 
+Contact me 512468080@qq.com or qq:512468080
