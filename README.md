@@ -12,7 +12,7 @@ Hardware:
  6. Two unicom SIM car for E3372s-210 and phone
  7. Quadrotor and so on 
  
- I use Pi2 GPIO soft PWM mode(wirngPi) and USB Serial connect with Multiwii SE board.
+ I use Pi2 GPIO soft PWM mode(wirngPi) and USB Serial connect with Multiwii SE board. I use GPIO 0 1 2 3 4 5,please google which pins
 
  I also transformed a remote control with a arduino nano V3.0 board and a bluetooth serial board.
 
