@@ -1,0 +1,81 @@
+[MyDID]
+#starx MyDID
+MyDID=STAR-0000XX-XXXXX
+
+[StrPara]
+#starx StrPara must be the same with android app
+StrPara=EFGBFFBJKFJOGCJNFHHCFHEMGENHHBMHHLFGBKDFAMJLLDKHDHACDEPBGCLAIALDADMPKDDIODMEBOCNJLNDJJ
+
+[APILicense]
+#starx APILicense
+APILicense=XXXXXX
+
+[timestoInit]
+timestoInit =10
+
+[networkport]
+#more then 10000
+networkport =123
+
+[UDP_Port]
+#more then 10000
+UDP_Port =123
+
+[TimeOut_Sec]
+#time of connection waiting one round
+TimeOut_Sec =900
+
+[bEnableInternet]
+#(1 enable or 0 disable)
+bEnableInternet =1
+
+[VideoChannel]  
+#0-7 eight channels
+VideoChannel =7
+
+[ControlChannel]
+#ControlChannel
+ControlChannel = 5
+
+[ServoChannel]
+ServoChannel =3
+
+[width]
+# 0 is canera default value (your camera support) 
+width = 320
+
+[height]
+# 0 is camera default value (your camera support)
+height = 240
+
+[fps]
+# frame per second
+fps = 20
+
+[brightness]
+# camera brightness 0-100
+brightness = 65
+
+[bitrate]
+# h.264 video bitrate default 10000000
+bitrate = 20000000
+
+[serialPort]
+#except port 0, is main terminal,default 115200 8bit 'N' stop bit 1
+serialPort = /dev/ttyUSB0
+
+[serialspeed]
+serialspeed = 115200
+
+[cameraName]
+#default "/dev/video0" maybe 1 or 2 or 3
+cameraName = /dev/video0
+
+[replayFileName]
+#default "./" 
+replayFileName = .
+
+[fallsafe_ms]
+# default 700ms <65535 raspberry pi will output nothing after this time to cause fallsafe mode of multiwii
+fallsafe_ms =700
+
