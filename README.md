@@ -1,5 +1,6 @@
 # Pi-Android-multiwii-4G-LTE-Quadrotor
-Android as controller, Pi as FPV sender and receiver through 4G LTE stick. Finally I use multiwii as coprocessor. 
+Android as controller, Pi as H.264 FPV sender and receiver through 4G LTE stick. Finally I use multiwii as coprocessor. 
+FPV resolution from 160X120 to 1920X1080
 Mark: 20160525 ~ 20160527 update 
 
 Hardware:
