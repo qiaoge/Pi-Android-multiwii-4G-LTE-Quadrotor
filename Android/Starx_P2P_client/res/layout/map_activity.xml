@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/Main_relativeLayout"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:keepScreenOn="true"   >
+
+      <com.amap.api.maps.MapView
+          android:id="@+id/map"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true" >
+
+      </com.amap.api.maps.MapView>
+      
+      <Button
+          android:id="@+id/buttonOK"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="65dp"
+          android:text="GO!" />
+
+      <Button
+          android:id="@+id/button_del"
+          style="?android:attr/buttonStyleSmall"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/button_set"
+          android:layout_marginTop="18dp"
+          android:text="取消" />
+
+      <CheckBox
+          android:id="@+id/satellite_box"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"
+          android:text="卫星图"
+          android:textColor="#0000FF"/>
+
+      <Button
+          android:id="@+id/button_set"
+          style="?android:attr/buttonStyleSmall"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginTop="82dp"
+          android:text="设航线" />
+
+      <TextView
+          android:id="@+id/text_voyage"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginRight="80dp"
+          android:text="0米"
+          android:textColor="#000000"
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+      <Button
+          android:id="@+id/button_airplane"
+          style="?android:attr/buttonStyleSmall"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentLeft="true"
+          android:text="航空器位置" />
+
+</RelativeLayout>
