@@ -66,4 +66,6 @@ Android software:
 
  set program on your phone with eclipse.
  
+ U need download newest MultiwiiConf to set multiwii se by yourself.
+ 
 Contact me 512468080@qq.com or qq:512468080
